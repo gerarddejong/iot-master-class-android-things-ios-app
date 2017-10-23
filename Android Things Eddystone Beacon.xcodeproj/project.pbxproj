@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CADFCDDE1F9A6D4100D933BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CADFCDDD1F9A6D4100D933BD /* AppDelegate.m */; };
+		CADFCDE11F9A6D4100D933BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CADFCDE01F9A6D4100D933BD /* ViewController.m */; };
+		CADFCDE41F9A6D4100D933BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CADFCDE21F9A6D4100D933BD /* Main.storyboard */; };
+		CADFCDE61F9A6D4100D933BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CADFCDE51F9A6D4100D933BD /* Assets.xcassets */; };
+		CADFCDE91F9A6D4100D933BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CADFCDE71F9A6D4100D933BD /* LaunchScreen.storyboard */; };
+		CADFCDEC1F9A6D4100D933BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CADFCDEB1F9A6D4100D933BD /* main.m */; };
+		CADFCDFA1F9A6D8300D933BD /* ESSEddystone.m in Sources */ = {isa = PBXBuildFile; fileRef = CADFCDF61F9A6D8300D933BD /* ESSEddystone.m */; };
+		CADFCDFB1F9A6D8300D933BD /* ESSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = CADFCDF71F9A6D8300D933BD /* ESSTimer.m */; };
+		CADFCDFC1F9A6D8300D933BD /* ESSBeaconScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = CADFCDF81F9A6D8300D933BD /* ESSBeaconScanner.m */; };
+		CADFCE051F9D32F500D933BD /* Android_Things_Eddystone_Beacon_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CADFCE041F9D32F500D933BD /* Android_Things_Eddystone_Beacon_Tests.m */; };
+		CADFCE0E1F9D361D00D933BD /* ControlClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CADFCE0D1F9D361D00D933BD /* ControlClient.m */; };
+		CADFCE0F1F9D361D00D933BD /* ControlClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CADFCE0D1F9D361D00D933BD /* ControlClient.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CADFCE071F9D32F500D933BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CADFCDD11F9A6D4000D933BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CADFCDD81F9A6D4000D933BD;
+			remoteInfo = "Android Things Eddystone Beacon";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CADFCDD91F9A6D4000D933BD /* Android Things Eddystone Beacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Android Things Eddystone Beacon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CADFCDDC1F9A6D4000D933BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CADFCDDD1F9A6D4100D933BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CADFCDDF1F9A6D4100D933BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CADFCDE01F9A6D4100D933BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CADFCDE31F9A6D4100D933BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CADFCDE51F9A6D4100D933BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CADFCDE81F9A6D4100D933BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CADFCDEA1F9A6D4100D933BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CADFCDEB1F9A6D4100D933BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CADFCDF31F9A6D5200D933BD /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		CADFCDF41F9A6D8300D933BD /* ESSTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESSTimer.h; sourceTree = "<group>"; };
+		CADFCDF51F9A6D8300D933BD /* ESSBeaconScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESSBeaconScanner.h; sourceTree = "<group>"; };
+		CADFCDF61F9A6D8300D933BD /* ESSEddystone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESSEddystone.m; sourceTree = "<group>"; };
+		CADFCDF71F9A6D8300D933BD /* ESSTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESSTimer.m; sourceTree = "<group>"; };
+		CADFCDF81F9A6D8300D933BD /* ESSBeaconScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESSBeaconScanner.m; sourceTree = "<group>"; };
+		CADFCDF91F9A6D8300D933BD /* ESSEddystone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESSEddystone.h; sourceTree = "<group>"; };
+		CADFCE021F9D32F500D933BD /* Android Things Eddystone Beacon Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Android Things Eddystone Beacon Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CADFCE041F9D32F500D933BD /* Android_Things_Eddystone_Beacon_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Android_Things_Eddystone_Beacon_Tests.m; sourceTree = "<group>"; };
+		CADFCE061F9D32F500D933BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CADFCE0C1F9D361D00D933BD /* ControlClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlClient.h; sourceTree = "<group>"; };
+		CADFCE0D1F9D361D00D933BD /* ControlClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControlClient.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CADFCDD61F9A6D4000D933BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADFCDFF1F9D32F500D933BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CADFCDD01F9A6D4000D933BD = {
+			isa = PBXGroup;
+			children = (
+				CADFCDDB1F9A6D4000D933BD /* Android Things Eddystone Beacon */,
+				CADFCE031F9D32F500D933BD /* Android Things Eddystone Beacon Tests */,
+				CADFCDDA1F9A6D4000D933BD /* Products */,
+				CADFCDF21F9A6D5200D933BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CADFCDDA1F9A6D4000D933BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CADFCDD91F9A6D4000D933BD /* Android Things Eddystone Beacon.app */,
+				CADFCE021F9D32F500D933BD /* Android Things Eddystone Beacon Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CADFCDDB1F9A6D4000D933BD /* Android Things Eddystone Beacon */ = {
+			isa = PBXGroup;
+			children = (
+				CADFCDFD1F9A6D9500D933BD /* Eddystone BeaconScanner */,
+				CADFCDDC1F9A6D4000D933BD /* AppDelegate.h */,
+				CADFCDDD1F9A6D4100D933BD /* AppDelegate.m */,
+				CADFCDDF1F9A6D4100D933BD /* ViewController.h */,
+				CADFCDE01F9A6D4100D933BD /* ViewController.m */,
+				CADFCDE21F9A6D4100D933BD /* Main.storyboard */,
+				CADFCDE51F9A6D4100D933BD /* Assets.xcassets */,
+				CADFCDE71F9A6D4100D933BD /* LaunchScreen.storyboard */,
+				CADFCDEA1F9A6D4100D933BD /* Info.plist */,
+				CADFCDEB1F9A6D4100D933BD /* main.m */,
+				CADFCE0C1F9D361D00D933BD /* ControlClient.h */,
+				CADFCE0D1F9D361D00D933BD /* ControlClient.m */,
+			);
+			path = "Android Things Eddystone Beacon";
+			sourceTree = "<group>";
+		};
+		CADFCDF21F9A6D5200D933BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CADFCDF31F9A6D5200D933BD /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CADFCDFD1F9A6D9500D933BD /* Eddystone BeaconScanner */ = {
+			isa = PBXGroup;
+			children = (
+				CADFCDF51F9A6D8300D933BD /* ESSBeaconScanner.h */,
+				CADFCDF81F9A6D8300D933BD /* ESSBeaconScanner.m */,
+				CADFCDF91F9A6D8300D933BD /* ESSEddystone.h */,
+				CADFCDF61F9A6D8300D933BD /* ESSEddystone.m */,
+				CADFCDF41F9A6D8300D933BD /* ESSTimer.h */,
+				CADFCDF71F9A6D8300D933BD /* ESSTimer.m */,
+			);
+			path = "Eddystone BeaconScanner";
+			sourceTree = "<group>";
+		};
+		CADFCE031F9D32F500D933BD /* Android Things Eddystone Beacon Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CADFCE041F9D32F500D933BD /* Android_Things_Eddystone_Beacon_Tests.m */,
+				CADFCE061F9D32F500D933BD /* Info.plist */,
+			);
+			path = "Android Things Eddystone Beacon Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CADFCDD81F9A6D4000D933BD /* Android Things Eddystone Beacon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CADFCDEF1F9A6D4100D933BD /* Build configuration list for PBXNativeTarget "Android Things Eddystone Beacon" */;
+			buildPhases = (
+				CADFCDD51F9A6D4000D933BD /* Sources */,
+				CADFCDD61F9A6D4000D933BD /* Frameworks */,
+				CADFCDD71F9A6D4000D933BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Android Things Eddystone Beacon";
+			productName = "Android Things Eddystone Beacon";
+			productReference = CADFCDD91F9A6D4000D933BD /* Android Things Eddystone Beacon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CADFCE011F9D32F500D933BD /* Android Things Eddystone Beacon Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CADFCE091F9D32F500D933BD /* Build configuration list for PBXNativeTarget "Android Things Eddystone Beacon Tests" */;
+			buildPhases = (
+				CADFCDFE1F9D32F500D933BD /* Sources */,
+				CADFCDFF1F9D32F500D933BD /* Frameworks */,
+				CADFCE001F9D32F500D933BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CADFCE081F9D32F500D933BD /* PBXTargetDependency */,
+			);
+			name = "Android Things Eddystone Beacon Tests";
+			productName = "Android Things Eddystone Beacon Tests";
+			productReference = CADFCE021F9D32F500D933BD /* Android Things Eddystone Beacon Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CADFCDD11F9A6D4000D933BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "IQ Business";
+				TargetAttributes = {
+					CADFCDD81F9A6D4000D933BD = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					CADFCE011F9D32F500D933BD = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CADFCDD81F9A6D4000D933BD;
+					};
+				};
+			};
+			buildConfigurationList = CADFCDD41F9A6D4000D933BD /* Build configuration list for PBXProject "Android Things Eddystone Beacon" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CADFCDD01F9A6D4000D933BD;
+			productRefGroup = CADFCDDA1F9A6D4000D933BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CADFCDD81F9A6D4000D933BD /* Android Things Eddystone Beacon */,
+				CADFCE011F9D32F500D933BD /* Android Things Eddystone Beacon Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CADFCDD71F9A6D4000D933BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADFCDE91F9A6D4100D933BD /* LaunchScreen.storyboard in Resources */,
+				CADFCDE61F9A6D4100D933BD /* Assets.xcassets in Resources */,
+				CADFCDE41F9A6D4100D933BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADFCE001F9D32F500D933BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CADFCDD51F9A6D4000D933BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADFCE0E1F9D361D00D933BD /* ControlClient.m in Sources */,
+				CADFCDE11F9A6D4100D933BD /* ViewController.m in Sources */,
+				CADFCDEC1F9A6D4100D933BD /* main.m in Sources */,
+				CADFCDFB1F9A6D8300D933BD /* ESSTimer.m in Sources */,
+				CADFCDDE1F9A6D4100D933BD /* AppDelegate.m in Sources */,
+				CADFCDFC1F9A6D8300D933BD /* ESSBeaconScanner.m in Sources */,
+				CADFCDFA1F9A6D8300D933BD /* ESSEddystone.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADFCDFE1F9D32F500D933BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADFCE0F1F9D361D00D933BD /* ControlClient.m in Sources */,
+				CADFCE051F9D32F500D933BD /* Android_Things_Eddystone_Beacon_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CADFCE081F9D32F500D933BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CADFCDD81F9A6D4000D933BD /* Android Things Eddystone Beacon */;
+			targetProxy = CADFCE071F9D32F500D933BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CADFCDE21F9A6D4100D933BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CADFCDE31F9A6D4100D933BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CADFCDE71F9A6D4100D933BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CADFCDE81F9A6D4100D933BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CADFCDED1F9A6D4100D933BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CADFCDEE1F9A6D4100D933BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CADFCDF01F9A6D4100D933BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C77ZRPGG8;
+				INFOPLIST_FILE = "Android Things Eddystone Beacon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.iqbusiness.Android-Things-Eddystone-Beacon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CADFCDF11F9A6D4100D933BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C77ZRPGG8;
+				INFOPLIST_FILE = "Android Things Eddystone Beacon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.iqbusiness.Android-Things-Eddystone-Beacon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CADFCE0A1F9D32F500D933BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C77ZRPGG8;
+				INFOPLIST_FILE = "Android Things Eddystone Beacon Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.iqbusiness.Android-Things-Eddystone-Beacon-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Android Things Eddystone Beacon.app/Android Things Eddystone Beacon";
+			};
+			name = Debug;
+		};
+		CADFCE0B1F9D32F500D933BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C77ZRPGG8;
+				INFOPLIST_FILE = "Android Things Eddystone Beacon Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.iqbusiness.Android-Things-Eddystone-Beacon-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Android Things Eddystone Beacon.app/Android Things Eddystone Beacon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CADFCDD41F9A6D4000D933BD /* Build configuration list for PBXProject "Android Things Eddystone Beacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADFCDED1F9A6D4100D933BD /* Debug */,
+				CADFCDEE1F9A6D4100D933BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CADFCDEF1F9A6D4100D933BD /* Build configuration list for PBXNativeTarget "Android Things Eddystone Beacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADFCDF01F9A6D4100D933BD /* Debug */,
+				CADFCDF11F9A6D4100D933BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CADFCE091F9D32F500D933BD /* Build configuration list for PBXNativeTarget "Android Things Eddystone Beacon Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADFCE0A1F9D32F500D933BD /* Debug */,
+				CADFCE0B1F9D32F500D933BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CADFCDD11F9A6D4000D933BD /* Project object */;
+}
